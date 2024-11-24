@@ -1,3 +1,16 @@
+# Simple Price Grid Component
+## Frontend Challenge 💻✨
+
+### Preview
+![Screenshot 2024-11-24 162544](https://github.com/user-attachments/assets/99954d86-e126-4d14-8060-16df034ea708)
+
+## Tools Used ⚙️
+- React
+- HTML
+- CSS
+- Figma
+- Vercel
+- Github
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
