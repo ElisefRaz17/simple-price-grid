@@ -1,0 +1,73 @@
+.container {
+  background: #2ab3b1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px;
+  width: 41%;
+  border-bottom-left-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width:100%;
+  }
+}
+.title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  padding-left: 30px;
+  /* padding: 30px; */
+}
+.amount {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: -0.4px;
+}
+.amountsub {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  opacity: 80%;
+}
+.text {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+.amountcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  color: white;
+}
+.signbutton {
+  color: white;
+  background-color: #c0df33;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border: 0px;
+  width: 237px;
+  height: 48px;
+}
+.signbutton:hover {
+  background-color: rgb(8, 121, 42);
+  transition: background-color 0.3s ease;
+}
